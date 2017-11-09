@@ -1,343 +1,68 @@
-/* Header */
-
-/* Footer */
-img{
-  margin-top: 10px;
-}
-
-
 h1, h2, p{
-  text-align: center;
+text-align: center;
 }
 
-/* 
-.btn-primary {
-  color: #fff;
-  background-color: #FF7B05;
-  border-color: #FF7B05;
+.image {
+margin: 10px;
+padding: 2%;
+position: relative;
 }
 
-.btn {
-  display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-} */
-
-
-/* Slider */
-
-/* Global */
-.container { max-width: 960px; }↓
-
-img { max-width:100%; }
-
-a {
-	-webkit-transition: all 150ms ease;
-	-moz-transition: all 150ms ease;
-	-ms-transition: all 150ms ease;
-	-o-transition: all 150ms ease;
-	transition: all 150ms ease; 
-	}
-    a:hover {
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
-        filter: alpha(opacity=50); /* IE7 */
-        opacity: 0.6;
-        text-decoration: none;
-    }
-
-
-/* Container */
-
-
-
-/* Page Header */
- 
-
-
-/* Thumbnail Box */
-.caption h4 {
-    font-size: 1.25rem;
-    color: #444;
-    }
-.caption p {
-        font-size: 0.85rem;
-        color: #999;
-        }
-.btn.btn-mini {
-            font-size: 0.63rem;
-            }
-
-
-/* Carousel Control 
-.control-box {
-    text-align: right;
-    width: 100%;
-    }*/
-.carousel-control{
-        color: #000 !important;
-        border: 0px;
-        border-radius: 0px;
-        display: inline-block;
-        font-size: 16px;
-        font-weight: 200;
-        line-height: 18px;
-        opacity: 0.5;
-        padding: 4px 0px 0px;
-        position: absolute;
-        height: 30px;
-        width: 15px;
-        top: 0;
-  background: none !important;
-        }
-
-
-
-
-/* Mobile Only */
-@media (max-width: 767px) {
-    .page-header, .control-box {
-    text-align: center;
-    } 
-}
-@media (max-width: 479px) {
-    .caption {
-    word-break: break-all;
-    }
-}
-
+.container { max-width: 960px; 
+ }↓
 #section {
-  background-color: #ffffff;
- }
-
-#section1 {
-  	background-color: #F5F5F7;
+background-color: #ffffff;
 }
 
-/*Hexagon starts here */
-
-.hexagon{
-  background-color: #ffffff;
-  text-align: center;
-  line-height: 100px;
-  height: 100px;
-  width: 173.2px;
-  margin: 60px 10px;
-  position: relative;
-  z-index: 1;
+.section_color {
+  background-color: #F5F5F7;
+}
+.background {
+  background-color: #edeff7;
 }
 
-.hexagon:after,
-.hexagon:before{
-  border-left: 87.5px solid transparent;
-  border-right: 87.5px solid transparent;
-  content: "";
-  position: absolute;
-  left: 0;
-  z-index: -1;
+/* Section id features */
+#features {
+padding: 25px 0 20px;
+}
+#features .media.service-box:first-child {
+margin-top: 30px;
+}
+#features .service-box:hover .pull-left {
+-webkit-box-shadow: 0 0 0 5px #faa267;
+-moz-box-shadow: 0 0 0 5px #faa267;
+-ms-box-shadow: 0 0 0 5px #faa267;
+-o-box-shadow: 0 0 0 5px #faa267;
+box-shadow: 0 0 0 5px #faa267;
+color: #ffffff;
 }
 
-.hexagon:before{
-  border-top: 50px solid transparent;
-  border-bottom: 50px solid #ffffff;
-  top: -100px;
+#features .pull-left {
+padding-left: 0;
+padding-right: 0;
+height: 64px;
+line-height: 64px;
+width: 64px;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+border-radius: 50%;
+text-align: center;
+-webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
+-moz-box-shadow: inset 0 0 0 1px #d7d7d7;
+-ms-box-shadow: inset 0 0 0 1px #d7d7d7;
+-o-box-shadow: inset 0 0 0 1px #d7d7d7;
+box-shadow: inset 0 0 0 1px #d7d7d7;
+-webkit-transition: box-shadow 0.2s;
+-moz-transition: box-shadow 0.2s;
+-ms-transition: box-shadow 0.2s;
+-o-transition: box-shadow 0.2s;
+transition: box-shadow 0.2s;
 }
 
-.hexagon:after{
-  bottom: -100px;
-  border-top: 50px solid #ffffff;
-  border-bottom: 50px solid transparent;
+.media.service-box {
+  margin: 25px 0;
 }
 
-
-.user{
-  
-  -webkit-box-shadow:0px 250px 15px -35px rgba(0,0,0,.25);
-  -moz-box-shadow:0px 250px 15px -35px rgba(0,0,0,.25);
-   box-shadow:0px 250px 15px -35px rgba(0,0,0,.25);
-  -webkit-border-radius:100%;
-  -moz-border-radius:100%;
-   border-radius:100%;
-   
-  
-  
-}
-
- /* end of hex*/
-
-
-
-
-
-.title{
-  margin-left: 217px;
-}
-.text{
-  margin-left: 156px;
-}
-
-.icon {
-  margin-left: 528px;
-  margin-bottom: -79px;
-}
-
-/* Testimonial style starts here */
-
-#quote-carousel 
-{
-  padding: 0 10px 30px 10px;
-  margin-top: 30px;
-}
-
-/* Control buttons  */
-#quote-carousel .carousel-control
-{
-  background: none;
-  color: #222;
-  font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 30px;
-}
-/* Previous button  */
-#quote-carousel .carousel-control.left 
-{
-  left: -12px;
-}
-/* Next button  */
-#quote-carousel .carousel-control.right 
-{
-  right: -12px !important;
-}
-/* Changes the position of the indicators */
-#quote-carousel .carousel-indicators 
-{
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
-}
-/* Changes the color of the indicators */
-#quote-carousel .carousel-indicators li 
-{
-  background: #c0c0c0;
-}
-#quote-carousel .carousel-indicators .active 
-{
-  background: #333333;
-}
-#quote-carousel img
-{
-  
-  height: 100px
-}
-/* End carousel */
-
-.item blockquote {
-    border-left: none; 
-    margin: 0;
-}
-
-.item blockquote img {
-    margin-bottom: 10px;
-}
-
-.item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
-}
-
-
-
-/**
-  MEDIA QUERIES
-*/
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    #quote-carousel 
-    {
-      margin-bottom: 0;
-      padding: 0 40px 30px 40px;
-    }
-    
-}
-
-/* Small devices (tablets, up to 768px) */
-@media (max-width: 768px) { 
-    
-    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-    
-    #quote-carousel .carousel-indicators {
-        bottom: -20px !important;  
-    }
-    #quote-carousel .carousel-indicators li {
-        display: inline-block;
-        margin: 0px 5px;
-        width: 15px;
-        height: 15px;
-    }
-    #quote-carousel .carousel-indicators li.active {
-        margin: 0px 5px;
-        width: 20px;
-        height: 20px;
-    }
-}
-
-#footer {
-  position: relative;
-  overflow: hidden;
-  text-align: left;
-}
-.wrap {
-  position: relative;
-  margin: 0 auto;
-  padding: 20px;
-  overflow: hidden;
-  background: #ffffff;
-  color: #fff;
-  font:900 14px/26px 'Open Sans', sans-serif;
-text-transform: uppercase;
-}
-#footer h3 a,
-#footer h3 p {
-  margin: 0;
-color: #3E3E3E;
-  text-decoration: none;
-}
-h3{
-  font-size: 12px;
-}
-
-.left {
-  float: left;
-  width: 25%;
-}
-.right {
-  float: right;
-  width: 25%;
-}
-.centered {
-  overflow: hidden; /* claim the left over width between these 25% floats */
-}
-.social {
-  float: right;
-  width: 50%; /* of the squished parent width */
-}
-
+ 
